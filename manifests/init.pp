@@ -39,7 +39,7 @@ class lint {
 
 package { 'puppet-lint':
   ensure   => '1.1.0',
-  provider => '/opt/puppet/bin/gem',
+  provider => 'gem',
 }
 
 }
